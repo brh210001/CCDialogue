@@ -134,7 +134,6 @@ GameObject:
   - component: {fileID: 256670354}
   - component: {fileID: 256670355}
   - component: {fileID: 256670356}
-  - component: {fileID: 256670357}
   m_Layer: 5
   m_Name: Dialogue_pnl
   m_TagString: Untagged
@@ -194,33 +193,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &256670357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 256670353}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65aff2a7ff1c0da44bfb3ce99459c0bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogueText: {fileID: 0}
-  nameText: {fileID: 0}
-  exclamation: {fileID: 0}
-  dialogueImage: {fileID: 1056627638}
-  animator: {fileID: 256670356}
-  player: {fileID: 1855376889}
-  npc: {fileID: 1913413934}
-  lines:
-  - Hello, my name is Sweet Pea.
-  - Congrats on downloading this tool!
-  - I hope it helps in the future.
-  textSpeed: 0
-  NPCName: Sweet Pea
-  textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-  rangeOfAwareness: 5
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1206,12 +1178,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7291657201287896286}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1913413934 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5718339680742712311, guid: 572fee24d4d3d3a498d01a2fe5d4d3ae,
-    type: 3}
-  m_PrefabInstance: {fileID: 5718339678830904025}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1913413935 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5718339680742712310, guid: 572fee24d4d3d3a498d01a2fe5d4d3ae,
@@ -1402,7 +1368,7 @@ PrefabInstance:
     - target: {fileID: 7291657199568933159, guid: f9bd924554ab90d4d80f20c23024877c,
         type: 3}
       propertyPath: m_Name
-      value: Cube
+      value: Player
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9bd924554ab90d4d80f20c23024877c, type: 3}

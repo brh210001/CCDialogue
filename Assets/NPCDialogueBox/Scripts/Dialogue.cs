@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Dialogue : MonoBehaviour
 {
-    [Header("Asset Input")]
+    [Header("Assign Game Objects")]
     [SerializeField]
     private TextMeshProUGUI dialogueText;
 
@@ -23,13 +23,13 @@ public class Dialogue : MonoBehaviour
 
     public GameObject npc;
     
-    [Header("Dialogue Input")]
+    [Header("Input Dialogue")]
     [SerializeField]
     [TextArea(3, 10)]
     [Tooltip("Type your NPC dialogue here: Max of 158 characters; including spaces. Click the plus to add more lines.")]
     private string[] lines;
 
-    [Header("Dialogue Customization")]
+    [Header("Customize Dialogue")]
     [SerializeField]
     [Tooltip("This is how fast the dialogue will type; Negatives go faster, Positives go slower.")]
     private float textSpeed;
