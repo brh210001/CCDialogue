@@ -8,11 +8,14 @@ public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI exclamation;
+    public GameObject player;
+    public GameObject npc;
 
     public Animator animator;
 
     [SerializeField][Tooltip("Radius size where NPC will see player")]
-    private float _rangeOfAwareness;
+    public float rangeOfAwareness;
 
     private Queue<string> sentances;
 
@@ -30,9 +33,9 @@ public class DialogueManager : MonoBehaviour
 
         sentances.Clear();
 
-        foreach (string sentence in dialogue.sentences)
+        //foreach (string sentence in dialogue.sentences)
         {
-            sentances.Enqueue(sentence);
+            //sentances.Enqueue(sentence);
         }
 
         DisplayNextSentance();
@@ -68,4 +71,12 @@ public class DialogueManager : MonoBehaviour
         Debug.Log("End of conversation");
     }
 
+    /*public void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            float interactRange = rangeOfAwareness;
+            Physics.OverlapSphere(transform.position, interactRange);
+        }
+    }*/
 }
