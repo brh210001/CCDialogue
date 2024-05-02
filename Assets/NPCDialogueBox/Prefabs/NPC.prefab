@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6fe1f681a0703614fa0b85a7fda95911, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -295,7 +295,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6fe1f681a0703614fa0b85a7fda95911, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -505,7 +505,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 6fe1f681a0703614fa0b85a7fda95911, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -691,14 +691,14 @@ MonoBehaviour:
   nameText: {fileID: 0}
   exclamation: {fileID: 5718339680123317272}
   dialogueImage: {fileID: 0}
+  animator: {fileID: 0}
+  player: {fileID: 0}
+  npc: {fileID: 5718339680742712311}
   lines:
   - Hello, my name is Sweet Pea.
   - Congrats on downloading the tool!
   - I hope it is helpful in future projects.
   textSpeed: 0
   NPCName: Sweet Pea
-  textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+  textBoxColor: {r: 0.9433962, g: 0.734247, b: 0.7372549, a: 0.48235294}
   rangeOfAwareness: 5
-  animator: {fileID: 0}
-  player: {fileID: 7291657199568933159, guid: f9bd924554ab90d4d80f20c23024877c, type: 3}
-  npc: {fileID: 5718339680742712311}
